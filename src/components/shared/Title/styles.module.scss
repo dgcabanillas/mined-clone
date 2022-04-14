@@ -1,0 +1,13 @@
+.Title {
+  color: white;
+  font-weight: 700;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 36px;
+  font-size: 36px;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 48px;
+  }
+}

@@ -1,0 +1,5 @@
+export const types = {
+  SET_SECTION_OPTION: 'SET_SECTION_OPTION',
+  SET_TUTOR: 'SET_TUTOR',
+  SET_VIDEO: 'SET_VIDEO',
+}

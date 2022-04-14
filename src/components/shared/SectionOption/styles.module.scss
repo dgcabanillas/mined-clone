@@ -1,0 +1,36 @@
+.SectionOption {
+  width: 100%;
+  height: 150px;
+  min-height: 150px;
+  margin-bottom: 32px;
+  text-align: center;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  &__title {
+    display: block;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.40);
+
+    .SectionOption {
+      &__title {
+        color: rgba(255, 255, 255, 0.9);
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 45%;
+    max-width: 600px;
+    margin: 16px;
+    flex-shrink: 0;
+  }
+}

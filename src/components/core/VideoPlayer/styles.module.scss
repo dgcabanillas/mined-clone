@@ -1,0 +1,31 @@
+.VideoPlayer {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__video {
+    min-width: 50%;
+    min-height: 50%;
+  }
+
+  &__close {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    font-weight: 800;
+    font-size: 24px;
+    border: none;
+    color: #333333;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    z-index: 999;
+  }
+}
